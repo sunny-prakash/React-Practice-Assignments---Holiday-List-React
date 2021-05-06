@@ -46,7 +46,7 @@ class App extends Component {
                     {this.cityList.map((city) => {
                         if (city.country === "India") {
                             return (
-                                <li id={`location${this.i++}`} key={`location${this.i++}`}>
+                                <li id={`location${this.i}`} key={`location${this.i++}`}>
                                     {city.name}
                                 </li>
                             );
