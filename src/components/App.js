@@ -1,6 +1,5 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-import IndianCity from "./IndianCity";
 
 class App extends Component {
     constructor(props) {
@@ -38,11 +37,22 @@ class App extends Component {
         ];
     }
 
+    i = 1;
     render() {
         return (
             <div id="main">
                 {/* Do not remove the main div */}
-                <IndianCity cityList={this.cityList} />
+                <ol>
+                    {this.cityList.map((city) => {
+                        if (city.country === "India") {
+                            return (
+                                <li id={`location${this.i++}`} key={`location${this.i++}`}>
+                                    {city.name}
+                                </li>
+                            );
+                        }
+                    })}
+                </ol>
             </div>
         );
     }
