@@ -37,21 +37,11 @@ class App extends Component {
         ];
     }
 
-    i = 1;
     render() {
         return (
             <div id="main">
                 {/* Do not remove the main div */}
                 <ol>
-//                     {this.cityList.map((city) => {
-//                         if (city.country === "India") {
-//                             return (
-//                                 <li id={`location${this.i}`} key={`location${this.i++}`}>
-//                                     {city.name}
-//                                 </li>
-//                             );
-//                         }
-//                     })}
                     <li ke={"location1"}>Goa</li>
                     <li ke={"location2"}>Darjeeling</li>
                     <li ke={"location3"}>Lonavala</li>
