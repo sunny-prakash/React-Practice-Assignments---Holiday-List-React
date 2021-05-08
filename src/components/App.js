@@ -47,7 +47,7 @@ class App extends Component {
                     <li ke={"location3"}>Lonavala</li>
                     <li ke={"location4"}>Munnar</li>
                     <li ke={"location5"}>Leh Ladakh</li>
-                    <li ke={"location6"}>Goa</li>
+                    <li ke={"location6"}>Tirupati</li>
                     <li ke={"location7"}>Agra</li>
                     <li ke={"location8"}>Dalhousie</li>
                     <li ke={"location9"}>Coorg</li>
@@ -57,7 +57,6 @@ class App extends Component {
                     <li ke={"location13"}>Amritsar</li>
                     <li ke={"location14"}>Mussoorie</li>
                     <li ke={"location15"}>Mount Abu</li>
-                    <li ke={"location16"}>Tirupati</li>
                 </ol>
             </div>
         );
