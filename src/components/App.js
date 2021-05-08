@@ -55,7 +55,7 @@ class App extends Component {
                     <li key={"location11"}>Jaipur</li>
                     <li key={"location12"}>Kahna National Park</li>
                     <li key={"location13"}>Amritsar</li>
-                    <li kye={"location14"}>Mussoorie</li>
+                    <li key={"location14"}>Mussoorie</li>
                     <li key={"location15"}>Mount Abu</li>
                     <li key={"location16"}>Tirupati</li>
                 </ol>
