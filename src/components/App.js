@@ -42,21 +42,22 @@ class App extends Component {
             <div id="main">
                 {/* Do not remove the main div */}
                 <ol>
-                    <li ke={"location1"}>Goa</li>
-                    <li ke={"location2"}>Darjeeling</li>
-                    <li ke={"location3"}>Lonavala</li>
-                    <li ke={"location4"}>Munnar</li>
-                    <li ke={"location5"}>Leh Ladakh</li>
-                    <li ke={"location6"}>Tirupati</li>
-                    <li ke={"location7"}>Agra</li>
-                    <li ke={"location8"}>Dalhousie</li>
-                    <li ke={"location9"}>Coorg</li>
-                    <li ke={"location10"}>Varanasai</li>
-                    <li ke={"location11"}>Jaipur</li>
-                    <li ke={"location12"}>Kahna National Park</li>
-                    <li ke={"location13"}>Amritsar</li>
-                    <li ke={"location14"}>Mussoorie</li>
-                    <li ke={"location15"}>Mount Abu</li>
+                    <li key={"location1"}>Goa</li>
+                    <li key={"location2"}>Darjeeling</li>
+                    <li key={"location3"}>Lonavala</li>
+                    <li key={"location4"}>Munnar</li>
+                    <li key={"location5"}>Leh Ladakh</li>
+                    <li key={"location6"}>Goa</li>
+                    <li key={"location7"}>Agra</li>
+                    <li key={"location8"}>Dalhousie</li>
+                    <li key={"location9"}>Coorg</li>
+                    <li key={"location10"}>Varanasai</li>
+                    <li key={"location11"}>Jaipur</li>
+                    <li key={"location12"}>Kahna National Park</li>
+                    <li key={"location13"}>Amritsar</li>
+                    <li kye={"location14"}>Mussoorie</li>
+                    <li key={"location15"}>Mount Abu</li>
+                    <li key={"location16"}>Tirupati</li>
                 </ol>
             </div>
         );
