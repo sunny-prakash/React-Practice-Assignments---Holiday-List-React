@@ -4,7 +4,7 @@ import "../styles/App.css";
 class App extends Component {
     constructor(props) {
         super(props);
-
+        this.i = 1;
         this.cityList = [
             { name: "Goa", country: "India" },
             { name: "Amsterdam", country: "Netherlands" },
@@ -42,11 +42,11 @@ class App extends Component {
             <div id="main">
                 {/* Do not remove the main div */}
                 <ol>
-                    {cityList.fiter((city)=>{
-                        if(city.country === "India"){
-                            return <li key=
-                        }
-                    })}
+                    {this.cityList
+                        .filter((city) => city.country === "India")
+                        .map((city) => {
+                            return <li key={`location${this.i++}`}>{city.name}</li>;
+                        })}
                 </ol>
             </div>
         );
