@@ -43,6 +43,7 @@ class App extends Component {
                 {/* Do not remove the main div */}
                 <ol>
                     {this.cityList
+                        .slice(0, 6)
                         .filter((city) => city.country === "India")
                         .map((city) => {
                             return <li key={`location${this.i++}`}>{city.name}</li>;
